@@ -1,0 +1,160 @@
+.bmi_box {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px gray;
+    background: #fff;
+}
+
+
+/* .bmi_box:hover{
+    border: solid 1px red;
+    background: #92abc4;
+    opacity: 0.9;
+} */
+
+.bmi_box h1 {
+    width: 80%;
+    margin: 15px auto;
+    color: #12345a;
+    font-family: "標楷體";
+    font-size: 55px;
+    background: #C9FFC9;
+    border-radius: 10px;
+    box-shadow: 9px 8px 1px 1px gray;
+}
+
+.bmi_box p {
+    color: #0f1f89;
+    font-size: 18px;
+    font-family: "標楷體";
+}
+
+.bmi_buttom {
+    display: block;
+    font-size: 20px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 auto;
+    color: #fff;
+    background: #1074e7;
+    border: solid 1px #1074e7;
+    box-shadow: 2px 3px 1px 1px #0c477d;
+    border-radius: 5px;
+}
+
+.bmi_buttom:hover {
+    font-weight: bolder;
+    color: #f5f5dc;
+    background: #1074e7;
+    border: solid 1px #1074e7;
+    box-shadow: 2px 3px 1px 1px #0c477d;
+}
+
+.bmi_buttom:active{
+    font-weight: bolder;
+    color: #f5f5dc;
+    background: #1074e7;
+    border: solid 1px #1074e7;
+    margin-left: 36%;
+    box-shadow: 1px 1px 1px 1px #0c477d;
+
+}
+.bmi_box2 {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.color-0 {
+    color: #6699ff;
+}
+
+.color-1 {
+    color: #009900;
+}
+
+.color-2 {
+    color: #ffae00;
+}
+
+.color-3 {
+    color: #ff7700;
+}
+
+.color-4 {
+    color: #ff0000;
+}
+
+.color-5 {
+    color: #990099;
+}
+
+.orz_size {
+    font-family: "標楷體";
+    font-size: 34px;
+}
+
+h2 {
+    font-family: "標楷體";
+    font-size: 40px;
+}
+
+.fontcss{
+    display: block;
+    margin-left: -50px;
+    width: 70%;
+    animation-name: ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes ani {
+
+    0% {
+        margin-left: 0;
+        background: red;
+        color: blue;
+    }
+    50% {
+        margin-left: 30%;
+        background: yellow;
+    }
+    100% {
+        margin-left: 0;
+        background: blue;
+        color: red;
+    }
+}
+
+
+
+.help{
+    position: absolute;
+    font-size: 22px;
+    font-family: "標楷體";
+    text-align: center;
+    width: 8%;
+    padding: 5px;
+    margin: 0 auto;
+    color: #fff;
+    background: #1074e7;
+    border: solid 1px #1074e7;
+    box-shadow: 2px 3px 1px 1px #0c477d;
+    border-radius: 5px;
+    top: 192px;
+    left: 45.5%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.help:active{
+    font-weight: bolder;
+    color: #f5f5dc;
+    background: #1074e7;
+    border: solid 1px #1074e7;
+    box-shadow: 1px 1px 1px 1px #0c477d;
+
+}
